@@ -1,0 +1,35 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "DemoRepoKedonovDoc/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "DemoRepoKedonovDoc/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "DemoRepoKedonovDoc"
+  }
+}
